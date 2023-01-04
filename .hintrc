@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scroll-behavior",
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ],
+    "css-prefix-order": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-aria": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 14.8"
+  ]
+}
